@@ -26,6 +26,9 @@ public final class PetContract {
     // give it an empty constructor.
     private PetContract() {}
 
+    public static final String CONTENT_AUTHORITY = "com.example.android.pets";
+
+    public static final String PATH_PETS = "pets";
     /**
      * Inner class that defines constant values for the pets database table.
      * Each entry in the table represents a single pet.
